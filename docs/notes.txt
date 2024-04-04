@@ -1,0 +1,5 @@
+req generall accepted meanings
+- header: for sequrity; invisible to end user / downloaded before rest of request
+- body: for uploading infomtion
+- params: for filtering a search in URL
+- query: for searching by a string in URL

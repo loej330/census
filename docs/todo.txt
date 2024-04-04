@@ -1,0 +1,30 @@
+MISC JS
+1. figure out how to reduce reduntant import statements or how that even works
+2. why couldnt file reader read a relative file ref?
+3. .env 
+    - simpler syntax possible? 
+    - why is env vals for pool.js not working 
+
+API
+1. error handleing for DB and API
+    - get: either send data or error code
+
+SQL
+1. It seems as if most statements in a CRUD structure follow a pattern
+    could probably be abstracted in some way
+2. What buisness logic should be delegated to backend code vs. sql schema?
+    - My findings:
+    - Influences for putting in sql:
+        - has to do with nature of the DATA itself
+        - agnostic to the backend that is being used
+            - rebutal: at some point modularity has to end somewhere
+        - SQL code can more effiecient than js, especially in cases that it is
+            well suited for
+    - Influences for putting in node:
+        - js code is easier to write and maintain by myself and others
+        - reduce the ammount of languages being used in the app
+        - there are many things that can't be expressed well in SQL
+
+NVIM
+1. create an actual checklist to make it more like vscode lol
+2. Macros so i don't have to type or even cp the same boilerpalte everytime
