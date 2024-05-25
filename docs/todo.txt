@@ -25,6 +25,5 @@ SQL
         - reduce the ammount of languages being used in the app
         - there are many things that can't be expressed well in SQL
 
-NVIM
-1. create an actual checklist to make it more like vscode lol
-2. Macros so i don't have to type or even cp the same boilerpalte everytime
+REACT
+double excecution as evident as output duplicated in the console

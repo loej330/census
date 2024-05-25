@@ -1,0 +1,25 @@
+[[users]]
+user_id, username, password
+1, 'walnut', NULL 
+10, 'love10', 'actually_have_pw'
+11, 'the_author', NULL 
+[[polls]]
+poll_id, prompt
+1, 'should benny lose his liscense?'
+2, 'will you vote on this poll'
+3, 'how would you feel if you didn't have breakfast this morning?'
+[[topics]]
+topic_id, name
+1, 'things that make you go whaaaaa'
+2, 'retarded questions'
+[[choices]]
+choice_id, poll_id, text, votes
+1, 1, 'yes', 40
+2, 1, 'no', 1000
+3, 1, 'benny has gone too far this time', 100
+4, 2, 'yes (you are valid and awesome!)', 100
+5, 2, 'no (gues what nigga ,\ you just did)', 100
+6, 3, 'the same', 2
+7, 3, 'different', 2
+8, 3, 'actually I did have breakfast this morning', 100
+9, 3, 'But i did have breakfast this morning', 50

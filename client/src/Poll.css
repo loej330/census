@@ -1,0 +1,48 @@
+.not-chosen {
+  color: blue;
+  background-color: white;
+}
+.chosen {
+  color: white;
+  background-color: blue;
+}
+
+.choice {
+  flex-grow: 1; 
+  border: 0px;
+/* width: 30%; */
+}
+.results-container .choice {
+  width: 30%; 
+}
+
+.results-container .choices-container {
+  display: flex;
+  flex-direction: row;
+}
+.results-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.choices-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.poll-container {
+  padding: 8px;
+  background-color: lightblue;
+}
+
+.poll-list-container {
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

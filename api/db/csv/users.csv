@@ -1,0 +1,4 @@
+user_id, username, password
+1, 'walnut', NULL 
+10, 'love10', 'actually_have_pw'
+11, 'the_author', NULL 

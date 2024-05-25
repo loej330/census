@@ -1,0 +1,2 @@
+- 1 kattis
+- keep working on db parsing
